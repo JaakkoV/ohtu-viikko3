@@ -31,3 +31,13 @@ dependencies {
 */
 
 apply plugin: 'java'
+jar {
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+}
+apply plugin: 'application'
+mainClassName = 'Main'
+run {
+    standardInput = System.in
+}
