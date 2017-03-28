@@ -1,9 +1,6 @@
 package ohtu.services;
 
 import ohtu.domain.User;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.regex.Pattern;
 import ohtu.data_access.UserDao;
 
 public class AuthenticationService {
