@@ -14,7 +14,7 @@
     <bean id="io" class="ohtu.io.ConsoleIO">
     </bean>
 
-    <bean id="userDao" class="ohtu.data_access.FileUserDAO">
+    <bean id="userDao" class="ohtu.data_access.FileUserDao">
         <constructor-arg type="java.lang.String" value="users.txt" />
     </bean>
     
